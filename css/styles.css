@@ -103,7 +103,7 @@ a{
 .badge--primary{ 
     background: var(--color-primary);
     color: white;
-
+    
 }
 .badge--secondary{ 
     background: var(--color-secondary);
@@ -216,6 +216,7 @@ a{
 .btn--accent:hover{ 
     background: #ec3000;
 }
+
 
 
 .btn--block{ 
