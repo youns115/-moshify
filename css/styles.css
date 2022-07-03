@@ -103,7 +103,7 @@ a{
 .badge--primary{ 
     background: var(--color-primary);
     color: white;
-    
+
 }
 .badge--secondary{ 
     background: var(--color-secondary);
@@ -361,4 +361,21 @@ a{
     .plan__description {
       font-size: 1.7rem;
     }
+  }
+
+  /* Media */ 
+
+  .media{ 
+    display: flex;
+  }
+  
+  .media__body{ 
+    margin: 0 2rem;
+  }
+  .media__title{ 
+    margin-top: 0;
+  }
+  .media__image{ 
+    margin-top: 1rem;
+    
   }
