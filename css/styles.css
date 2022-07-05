@@ -609,3 +609,69 @@ a{
     max-width: 1140px;
     margin: 0 auto;
   }
+
+  /* navigation bar */
+
+ .nav{ 
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    align-items: center;
+ }
+
+ .nav__list{ 
+    width: 100%;
+    margin: 0;
+ }
+
+ .nav__item{ 
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+    
+ }
+ 
+ .nav__item > a { 
+    color: #d2d0db;
+    transition: color .2s;
+ }
+ .nav__item > a:hover { 
+    color: white;
+ }
+
+ .icon.icon__nav{ 
+    border-radius: 10px;
+    filter: invert(100%);
+    opacity: 0.5;
+    outline: 1px solid #d2d0d3;
+    transition: box-shadow .15s;
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto !important;
+ }
+
+
+ .nav.collapsible--expanded .icon__nav{ 
+     box-shadow: 0 0 0 3px #666;
+     opacity: 1;
+ }
+
+.nav__brandlogo{ 
+    transform: translateY(5px);
+}
+ @media screen and (min-width:768px){ 
+    .icon.icon__nav{ 
+    display: none;
+    
+   }
+   .nav__list{ 
+    display: flex;
+    font-size: 1.3rem;
+    max-height: 100%;
+    opacity: 1;
+    width: auto;
+   }
+   .nav__item{ 
+    border: 0;
+    
+   }
+ }
