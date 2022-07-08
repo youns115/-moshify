@@ -21,13 +21,6 @@
   
   "license": "ISC",
   
-  "devDependencies": {
-  
-    
-  "parcel-bundler": "^1.3.1"
-  
-  },
-  
   "targets": {
   
     
@@ -40,7 +33,12 @@
     
   }
   
+  },
+  
+  "dependencies": {
+  
+    
+  "parcel": "^2.6.2"
+  
   }
-  
-  
 }
